@@ -51,7 +51,7 @@ ebe9c5f42db4        dockermagentocommunity_front   "/usr/bin/supervisord"   Abou
 ```
 
 ## Créditos
- * Créditos ao **Lucas Santos** `https://github.com/SocialGroups` pelo apoio em vários entraves do Docker como:
+ * Créditos ao [**Lucas Santos**] (https://github.com/SocialGroups) pelo apoio em vários entraves do Docker como:
   * Leitura do mysql pela Uid correta
   * Path da session no local.xml
   * Execução do XDebug (para ambiente de dev)
