@@ -1,0 +1,106 @@
+#--------------------------#
+# Global Files Types       #
+#--------------------------#
+/www/.svn*
+/www/*.bkp
+/www/*.old
+/www/js_bkp/
+/www/js.old/
+/www/sitemap.xml
+/www/*.log
+/www/*.sql
+/www/*.tar.*
+/www/*.gz
+/www/*.rar
+/www/*.zip
+/www/*.bz2
+/www/*.bz
+/www/*.tgz
+/www/*.gzip
+/www/*.tb2
+/www/*.tbz2
+/www/*.pdf
+/www/*.log
+/www/*.swm
+/www/*.swn
+/www/*.swp
+/www/*.swo
+/www/.DS_Store
+.DS_Store
+
+#--------------------------#
+# IDE Project Files/Folder #
+#--------------------------#
+/www/nbproject/
+/www/.idea/
+
+#--------------------------#
+# XDebug Extension         #
+#--------------------------#
+/www/remote_log
+
+
+#--------------------------#
+# NGinx Specific Ignores   #
+#--------------------------#
+/www/50x.html
+/www/404.html
+
+
+#--------------------------#
+# Magento Specific Ignores #
+#--------------------------#
+# Agora queremos que o local.xml seja versionado... Por isso comentado abaixo!
+# /www/app/etc/local.xml
+
+/www/app/code/local/Zend/
+/www/app/code/local/Varien/
+/www/downloader/.cache/
+/www/downloader/cache.cfg
+/www/downloader/connect.cfg
+/www/var/cache/
+/www/var/session/
+/www/var/log/
+/www/var/report/
+/www/var/locks/
+/www/var/tmp/
+/www/var/package/
+/www/var/ait_*/
+/www/var/full_page_cache/
+/www/var/import/
+/www/var/export/
+/www/var/importexport/
+/www/var/resource_config.json
+/www/var/backups/
+/www/includes/src/
+/www/media/
+/www/media
+/www/.magentointel-cache/
+/www/LICENSE.html
+/www/LICENSE.txt
+/www/LICENSE_AFL.txt
+/www/LICENSE_EE.html
+/www/LICENSE_EE.txt
+/www/README_VARNISH_CACHE.txt
+/www/RELEASE_NOTES.txt
+/www/index.php.sample
+/www/php.ini.sample
+
+
+#--------------------------#
+# Sublime-text             #
+#--------------------------#
+# cache files for sublime text
+/www/*.tmlanguage.cache
+/www/*.tmPreferences.cache
+/www/*.stTheme.cache
+
+# workspace files are user-specific
+/www/*.sublime-workspace
+
+# project files should be checked into the repository, unless a significant
+# proportion of contributors will probably not be using SublimeText
+# *.sublime-project
+
+# sftp configuration file
+/www/sftp-config.json

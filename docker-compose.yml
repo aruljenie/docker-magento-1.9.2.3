@@ -1,0 +1,29 @@
+front:
+  build: .
+  dockerfile: docker/development/Dockerfile
+  ports:
+    - "80:80"
+    - "443:443"
+    - "9000:9000"
+  links:
+    - mysql
+    - redis
+  volumes:
+    - ./www:/var/www
+    - ./logs:/var/log/supervisor
+
+mysql:
+  image: mysql:5.6
+  ports:
+    - "3306:3306"
+  entrypoint: /localdb-run.sh
+  environment:
+    MYSQL_ROOT_PASSWORD: pass
+  volumes:
+    - ./.mysqldata:/var/lib/mysql
+    - ./localdb-run.sh:/localdb-run.sh
+
+redis:
+  image: redis
+  ports:
+    - "6379:6379"
